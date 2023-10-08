@@ -10,7 +10,7 @@ ___
 
 ![Image2](cd_argument.png)
 * The working directory is /home/lecture1
-* The working directory is changed to the subcategory of the home directory, lecture1.
+* The working directory is changed to the subndirectory of the home directory, lecture1.
 * The output is not an error.
 
 ![Image3](cd_path.png)
@@ -24,10 +24,17 @@ ___
 * The output is not an error
 
 ![Image2](ls_argument.png)
+* The working directory is /home/lecture1
+* lecture1 is already in the working directory of ls. ls is used to list information about files or directories, and since there's no file of the same name under lecture1, ls doesn't identify it as another file/directory.
+* The output is an error, since lecture1 is already part of the working directory and there's no file of the same name under lecture1
 
 ![Image3](ls_path.png)
+* The working directory is /home/lecture1
+* ls is used to list the names of the contents of a directory and since there's no other files in fi.txt, the output is just the argument itself. If the working directory was /home/lecture1/messages and the agrument was only ls, then it would've printed all the txt files in messages, including fi.txt.
+* The output is not an error
 
 ![Image1](cat.png)
+* 
 
 ![Image2](cat_argument.png)
 
