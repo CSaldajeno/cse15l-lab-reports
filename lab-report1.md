@@ -34,7 +34,9 @@ ___
 * The output is not an error
 
 ![Image1](cat.png)
-* 
+* The working directory is /home/lecture1
+* cat is used to read and output the contents of a file, so when it's not given a specific file as an argument, it just waits for an input, reprinting the same input until the command is forcibly ended.
+* it is not necessarily an error since the output doesn't specify it is; instead of an 'error' it is waiting for input until foricbly ended by using cntrl + D for example.
 
 ![Image2](cat_argument.png)
 
