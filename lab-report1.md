@@ -5,17 +5,17 @@ ___
 ![Image1](cd.png)
 * The working directory is `/home`
 * Running `cd` with no arguments takes you to the home directory
-* cd changes your working directory to the directory you apply as the argument, but since there is no argument or error, `cd` directs to the default home directory and returns a new prompt.
+* cd changes your working directory to the directory/file you input as the argument, but since there is no argument or error, `cd` goes to the default home directory and returns a new prompt.
 * The output is not an error.
 
 ![Image2](cd_direct.png)
 * The working directory is `/home/lecture1`
-* The working directory is changed to the subdirectory of the home directory, `lecture1`.
+* The working directory is changed to the subdirectory of the home directory, `lecture1`. `~` represents the home directory.
 * The output is not an error.
 
 ![Image3](cd_file.png)
 * The working directory is `/home/lecture1`
-* `cd` is used to change the working directory, and since the argument is a file instead of a directory, the output results in an error, stating that the argument `is not a directory`
+* `cd` is used to change the working directory, and since the argument is a file instead of a directory, the output results in an error, stating that the argument is `not a directory`
 * The output is an error, since `cd` expects a directory, not a file
 
 ![Image1](ls.png)
@@ -40,7 +40,7 @@ ___
 
 ![Image2](cat_direct.png)
 * The working directory is `/home/lecture1`
-* Since `lecture1` is already part of the working directory, the cat command is searching for another file of the same name under `lecture1` file, but doesn't find one, therefore outputing no such file or directory.
+* Since `lecture1` is already part of the working directory, the cat command is searching for another file of the same name under the `lecture1` file, but doesn't find one, therefore outputing `no such file or directory`.
 * The output is an error because the command reads lecture1 as another file of the same naem under the working directory, but can't find it.
 
 ![Image3](cat_file.png)
