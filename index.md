@@ -9,7 +9,7 @@ ___
 * The output is not an error.
 
 ![Image2](cd_direct.png)
-* After running cd lecture1, the the working directory is now `/home/lecture1`
+* After running `cd lecture1`, the working directory is now `/home/lecture1`
 * The working directory is changed to the subdirectory of the home directory, `lecture1`. `~` represents the home directory.
 * The output is not an error.
 
