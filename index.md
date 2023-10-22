@@ -9,7 +9,7 @@ ___
 * The output is not an error.
 
 ![Image2](cd_direct.png)
-* The working directory is `/home/lecture1`
+* After running cd lecture1, the the working directory is now `/home/lecture1`
 * The working directory is changed to the subdirectory of the home directory, `lecture1`. `~` represents the home directory.
 * The output is not an error.
 
@@ -25,8 +25,8 @@ ___
 
 ![Image2](ls_direct.png)
 * The working directory is `/home/lecture1`
-* lecture1 is already in the working directory of `ls`. `ls` is used to list information about files or directories, and since there's no file of the same name under `lecture1`, `ls` doesn't identify it as another file/directory.
-* The output is an error, since `lecture1` is already part of the working directory and there's no file of the same name under `lecture1`
+* `messages` is an existing subdirectory of lecture1, so running `ls messages` lists the content, which, in this case, are text files, in `messages`. 
+* The output is not an error
 
 ![Image3](ls_file.png)
 * The working directory is `/home/lecture1`
@@ -40,8 +40,8 @@ ___
 
 ![Image2](cat_direct.png)
 * The working directory is `/home/lecture1`
-* Since `lecture1` is already part of the working directory, the cat command is searching for another file of the same name under the `lecture1` file, but doesn't find one, therefore outputing `no such file or directory`.
-* The output is an error because the command reads lecture1 as another file of the same naem under the working directory, but can't find it.
+* the `cat` command is used to print the contents of a file, usually a text file, so running `cat messages`, where `messages` is a subdirectory/directory, results in a warning-like output that tells the user that `messages` is a directory and not what the cat command expects or is used for
+* The output is not a formal programming error and more of a diagnostic message, warning that `messages` isn't a file the cat command expects or is used for.
 
 ![Image3](cat_file.png)
 * The working directory is `/home/lecture1`
